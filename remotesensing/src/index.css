@@ -58,7 +58,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .main-container {
   background: url('ntl.jpg') center center/cover no-repeat;
-  height: 350vh;
+  height: 115vh;
   width: 100%;
   display: inline-block;
   flex-direction: column;

@@ -2,6 +2,10 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import ReactCardFlip from 'react-card-flip'
 import React from 'react'
 import './App.css'
+import gaza1 from "./gz1.png"
+import gaza2 from "./gz2.png"
+import ukraine1 from "./ukraine1.png"
+import ukraine2 from "./ukraine2.png"
 
 class InfoCard extends React.Component {
   constructor() {
@@ -43,14 +47,14 @@ function App() {
   return (
     <div>
       <div class ="main-container">
-      <h1>Using NTL Data to Indentify Conflicts</h1>
+      <h1>Using NTL Data to Identify Conflicts</h1>
 
       <div class="sub-container">
 
         <div class = 'container' style={{marginRight: '200px', width: 550, height: 450 }}>
           <ReactCompareSlider
-            itemOne={<ReactCompareSliderImage src="https://images.pexels.com/photos/4474767/pexels-photo-4474767.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Image one" />}
-            itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
+            itemOne={<ReactCompareSliderImage src={ukraine1} alt="Image one" />}
+            itemTwo={<ReactCompareSliderImage src={ukraine2} alt="Image two" />}
           />
           <div>
           <InfoCard text="Russian invasion of Ukraine, February 2022" />
@@ -63,13 +67,12 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="Devestation of Hurricane Harvey and Maria in Puerto Rico, August 2017" />
+          <InfoCard text="Devastation of Hurricane Maria and Irma in Puerto Rico, August 2017" />
           </div>
         </div>
 
       </div>   
 
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
@@ -98,8 +101,8 @@ function App() {
         <div class = 'container' style={{marginLeft: '200px', width: 550, height: 450 }}>
           
           <ReactCompareSlider
-            itemOne={<ReactCompareSliderImage src="https://images.pexels.com/photos/4474767/pexels-photo-4474767.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Image one" />}
-            itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
+            itemOne={<ReactCompareSliderImage src={gaza1} alt="Image one" />}
+            itemTwo={<ReactCompareSliderImage src={gaza2} alt="Image two" />}
           />
           <div>
           <InfoCard text="Israel and Palestine, October 2023" />
