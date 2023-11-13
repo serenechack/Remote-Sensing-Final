@@ -102,7 +102,7 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="Israeli attack on Gaza, October 2023" />
+          <InfoCard text="Israel and Palestine, October 2023" />
           </div>
           
         </div>
