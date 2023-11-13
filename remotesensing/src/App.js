@@ -22,7 +22,7 @@ class InfoCard extends React.Component {
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
         <div class = "flipcard-container">
           <h1>
-            Where/when did this conflict occur?
+            What is this conflict?
           </h1>
           <button className="btn" onClick={this.handleClick}>Click to flip</button>
         </div>
@@ -43,7 +43,7 @@ function App() {
   return (
     <div>
       <div class ="main-container">
-      <h1>CONFLICT MAPPING</h1>
+      <h1>Using NTL Data to Indentify Conflicts</h1>
 
       <div class="sub-container">
 
@@ -53,7 +53,7 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="Ukraine" />
+          <InfoCard text="Russian invasion of Ukraine, February 2022" />
           </div>
         </div>
 
@@ -63,7 +63,7 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="Puerto Rico" />
+          <InfoCard text="Devestation of Hurricane Harvey and Maria in Puerto Rico, August 2017" />
           </div>
         </div>
 
@@ -75,6 +75,12 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
 
       <div class="sub-container">
@@ -85,7 +91,7 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="China" />
+          <InfoCard text="Growth of China, 2012-2023" />
           </div>
         </div>
 
@@ -96,7 +102,7 @@ function App() {
             itemTwo={<ReactCompareSliderImage src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"  alt="Image two" />}
           />
           <div>
-          <InfoCard text="Hurricane Harvey" />
+          <InfoCard text="Israeli attack on Gaza, October 2023" />
           </div>
           
         </div>
