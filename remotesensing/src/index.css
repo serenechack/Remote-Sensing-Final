@@ -28,7 +28,7 @@ code {
 
 .text-big { 
   font-weight: 500; 
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-family: "Times New Roman", Times, serif; 
   font-size: 50px; 
 } 
 .section { 
@@ -57,8 +57,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-container {
-  background: url('ntl.jpg') center center/cover no-repeat;
-  height: 150vh;
+  background: url('nightsky.webp') center center/cover no-repeat;
+  /* background-color: #242424; */
+  height: 250vh;
   width: 100%;
   display: inline-block;
   flex-direction: column;
@@ -81,7 +82,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
@@ -122,6 +123,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   margin-top: 0px;
   text-align: center;
+  
 }
 
 
