@@ -7,6 +7,19 @@ import gaza2 from "./gz2.png"
 import ukraine1 from "./ukraine1.png"
 import ukraine2 from "./ukraine2.png"
 
+const CustomHandle = () => {
+  return <div style={{
+    width: 10,
+    height: 100,
+    color:'white',
+    backgroundcolor: 'white',
+    // backgroundImage: `
+    //       rgb(255, 255, 255) 100%,`,
+    // boxShadow: `0 0 0 2px rgba(148,0,211,1),`,
+    cursor: 'pointer'
+  }} />;
+};
+
 class InfoCard extends React.Component {
   constructor() {
     super();
@@ -53,6 +66,8 @@ function App() {
 
         <div class = 'container' style={{marginRight: '200px', width: 550, height: 450 }}>
           <ReactCompareSlider
+            handle = {<CustomHandle />}
+            changePositionOnHover={true}
             itemOne={<ReactCompareSliderImage src={ukraine1} alt="Image one" />}
             itemTwo={<ReactCompareSliderImage src={ukraine2} alt="Image two" />}
           />
